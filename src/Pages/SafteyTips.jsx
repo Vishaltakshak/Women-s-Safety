@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 
 import Header from '../Components/Header';
+import { SubHe } from '../Components/SubHeader';
 
 
 
@@ -172,8 +173,9 @@ const SafetyTipsPage = () => {
           ))}
         </div>
       </main>
+      <SubHe/>
 
-      <footer className="bg-gray-900 text-white mt-16 py-8">
+      <footer className="bg-gray-900 text-white mt-16 py-8 pb-20">
         <div className="container mx-auto px-4 text-center">
           <p>© 2024 SafeGuard. Download our app for more safety features and tips.</p>
         </div>
